@@ -45,7 +45,7 @@ static t_list_openedfd	*get_correct_file(t_list_openedfd **file, int fd)
 
 /*
 ** ft_dupuntil: takes a & char *dst, allocate memory and put the chars
-**				 from src until it meets a \n or c
+**				 from src until it meets a \0 or c
 **				 returns the number of chars copyied without the \0
 **				 or -1 if there were an error
 */
