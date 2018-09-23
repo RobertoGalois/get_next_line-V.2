@@ -10,9 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
-
-#include	<stdio.h>
+#include "get_next_line.h
 
 /*
 ** get_correct_file: select t_list file that is related to the fd
