@@ -67,7 +67,7 @@ static int		ft_dupuntil(char **dst, char *src, char c)
 ** ft_shiftstr: takes an char* and an index_from and shift all the chars
 **				from indx_from to indx_to (indx_from < indx_to)
 */
-void		ft_shiftstr(char *str, size_t indx_from)
+static void	ft_shiftstr(char *str, size_t indx_from)
 {
 	size_t	indx_to;
 
