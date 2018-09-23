@@ -18,7 +18,7 @@
 **                   if it doesn't exist, it push front a new t_list related to the
 **                   fd and return it.
 */
-
+/*ouaich*/
 static t_list_openedfd	*get_correct_file(t_list_openedfd **file, int fd)
 {
 	t_list_openedfd		*tmp;
